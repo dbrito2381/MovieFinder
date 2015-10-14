@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-	"Moviefinder"
+	erb :'index.html'
 end
